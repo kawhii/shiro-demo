@@ -11,5 +11,6 @@
 </head>
 <body>
 <h2>需要admin权限访问</h2>
+<jsp:include page="logout_include.jsp"></jsp:include>
 </body>
 </html>

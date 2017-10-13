@@ -38,6 +38,7 @@ http://localhost:8080
 |资源|限制情况
 |:--|:--
 |/perms.jsp|perms["admin_p"]
+|/logout|logout
 |/**|authc
 
 

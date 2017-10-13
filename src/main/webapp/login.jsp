@@ -11,8 +11,8 @@
 <h2>登录页~</h2>
 
 <form method="post">
-    Username: <input type="text" name="username"/> <br/>
-    Password: <input type="password" name="password"/> <br/>
+    Username: <input type="text" name="username" value="admin"/> <br/>
+    Password: <input type="password" name="password" value="123"/> <br/>
     <input type="checkbox" name="rememberMe" value="true"/>Remember Me? <br/>
     <input type="submit" value="登录"/>
 </form>

@@ -11,6 +11,8 @@
     <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
-<h2>Hello World!</h2>
+<h2>Hello World! <jsp:include page="logout_include.jsp"></jsp:include></h2>
+当前用户：
+<shiro:principal></shiro:principal>
 </body>
 </html>

@@ -55,9 +55,9 @@
         <finalName>shiro-demo</finalName>
         <plugins>
             <plugin>
-                <groupId>org.eclipse.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.3.11.v20160721</version>
+                    <groupId>org.eclipse.jetty</groupId>
+                    <artifactId>jetty-maven-plugin</artifactId>
+                    <version>9.4.7.v20170914</version>
                 <configuration>
                     <webApp>
                         <contextPath>/</contextPath>
