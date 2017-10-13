@@ -19,4 +19,30 @@ mvn jetty:run
 ```
 
 ## 访问
+用户：
 http://localhost:8080
+
+|用户名|密码|角色
+|:--|:--|:--
+|admin|123|admin_role
+|wangwu|123| |
+
+角色：
+
+|角色编码|权限
+|:--|:--
+|admin_role|admin_p
+
+资源：
+
+|资源|限制情况
+|:--|:--
+|/perms.jsp|perms["admin_p"]
+|/**|authc
+
+
+如：
+
+用户：admin/123 有权限访问 http://localhost:8080/perms.jsp
+
+用户：wangwu/123 w无权限访问 http://localhost:8080/perms.jsp
