@@ -6,7 +6,7 @@
     <packaging>war</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <name>shiro-demo Maven Webapp</name>
-    <url>github.com/laomazi2006/shiro-demo</url>
+    <url>https://github.com/kawahii/shiro-demo</url>
 
     <dependencies>
         <!-- Shiro dependencies: -->
